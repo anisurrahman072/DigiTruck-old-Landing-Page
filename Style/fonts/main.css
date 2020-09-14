@@ -1,0 +1,9 @@
+@font-face{
+    font-family: 'boldksdc';
+    src: url(Bold.otf);
+}   
+
+
+.fontt{
+    font-family: boldksdc;
+}

@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="BootstrapCSS/bootstrapCSS.css">
+    <link rel="stylesheet" href="Style/CSS.css">
+    <!-- <link rel="stylesheet" href="Style/font.css"> -->
+    <link rel="shortcut icon" type="image/png" href="img/primary-icon.png">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+
+    <title>DigiTruck Bangladesh</title>
+</head>
+
+<body id="bd">
+    <!--navbar-->
+    <div class="gradient mb-5">
+        <!-- <nav class="navbar navbar-expand-md navbar-light bg-light mb-3 fixed-top navbar-trans"> -->
+        <nav class="navbar navbar-expand-xl navbar-light bg-light mb-3 navbar-trans">
+            <div class="container">
+                <a href="#index.html" class="navbar-brand mr-3">
+                    <img src="img/brand.svg" class="brand">
+                </a>
+
+                <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" id="navi-toggle">
+                    <span class="my-1 mx-2 close" id="exe">
+                        <img src="img/cross.svg">
+                    </span>
+                    <span class="navbar-toggler-i" id="hamber">
+                        <img src="img/hamber.svg">
+                    </span>
+                </button>
+
+
+                <div id="navigation-background">&nbsp;</div>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#About-Section" data-easing="easeInOutCubic"  class="nav-link active nav-texts link-hovering"
+                            id="about5" data-toggle="collapse" data-target="#navbarCollapse" >About Us</a>
+                        <a data-easing="easeInOutCubic" href="#Features-Section"
+                            class="nav-link nav-texts navbar-element2 link-hovering" id="aboutF" data-toggle="collapse" data-target="#navbarCollapse">Features</a>
+                        <a data-easing="easeInOutCubic" href="#Process-Section" id="aboutP"
+                            class="nav-link nav-texts navbar-element3 link-hovering" data-toggle="collapse" data-target="#navbarCollapse">Process</a>
+                        <a data-easing="easeInOutCubic" href="#Download-Section" id="aboutD"
+                            class="nav-link nav-texts navbar-element3 link-hovering" data-toggle="collapse" data-target="#navbarCollapse">Download App</a>
+                        <a data-easing="easeInOutCubic" href="#Contact-Section" id="aboutC"
+                            class="nav-link nav-texts navbar-element3 link-hovering" data-toggle="collapse" data-target="#navbarCollapse">Contact</a>
+
+                        <a data-easing="easeInOutCubic" href="https://dev-digitruck-customer-web.herokuapp.com" class="nav-link">
+                            <button type="button"
+                                    class="btn nav-button-login shadow-none">Login
+                            </button>
+                        </a>
+                        <a data-easing="easeInOutCubic" href="https://dev-digitruck-customer-web.herokuapp.com/(login:register)" class="nav-link">
+                            <button type="button"
+                                    class="btn nav-button-signup shadow-none">Signup
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header after Navbar-->
+        <div class="container">
+            <div class="row header--margin-body">
+                <div class="col-sm-6 d-flex flex-column put-effort-body ">
+                    <div class="header-title">
+                        <p class="animated slideInUp faster large-text put-effort-text">A digital platform connecting Customers, Owners and Drivers.
+                        </p>
+                    </div>
+                    <div class="header-button">
+                        <a data-easing="easeInOutCubic" href="#About-Section">
+                            <button type="button"
+                                class="animated slideInUp fast btn learn-more shadow-none put-effort-button">Learn
+                                More
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 image-body ">
+                    <img src="img/header-image.svg" class="animated slideInUp faster image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Digi Truck-->
+    <section id="About-Section">
+        <div class="container">
+            <p class="About-header-text text-center title">About DigiTruck</p>
+            <div class="row About-body">
+                <div class="col-sm-6 About-image-body">
+                    <img src="img/AboutDigiTruck.svg" class="wow animated slideInUp fast About-image">
+                </div>
+                <div class="animated slideInUp faster col-sm-6 d-flex flex-column About-description">
+                    <p class="Truck-Anytime">Truck, Anytime Anywhere</p>
+                    <p class="About-text">DigiTruck was launched to satisfy a specific
+                        logistical need - truck hiring. Started in Bangladesh in 2018, DigiTruck now operates
+                        in
+                        all the
+                        64 districts across Bangladesh. Today, DigiTruck unceasingly matches huge number of registered
+                        customers
+                        with
+                        a
+                        pool of hundreds drivers of trucks.<br><br>
+
+                        The DigiTruck way has revolutionised old truck hiring call centres to being so streamlined,
+                        that
+                        customers and drivers match with each other within minutes. Providing reliable and quick
+                        deliveries for customers, DigiTruck also optimises drivers fleet and route to maximise their
+                        earning
+                        potential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exclusive Feature -->
+    <style>
+        /* Hide the images by default */
+        .mySlides {
+            display: none;
+        }
+
+        /* Add a pointer when hovering over the thumbnail images */
+        .cursor {
+            cursor: pointer;
+
+        }
+
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            width: 7%;
+            padding-left: 3%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 50%;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 50%;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(246, 247, 249, 0.8);
+            border: 1px solid black;
+        }
+
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+            opacity: 0.6;
+        }
+
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+
+        .slide-image {
+            width: 871px;
+            max-width: 100%;
+            height: 405px;
+            max-height: 100%;
+        }
+
+        .position-set {
+            margin-left: 68px;
+        }
+
+        .slide-body {
+            margin-top: 92px;
+        }
+    </style>
+    <div class="container">
+        <div id="Features-Section">
+            <p class="Feature-head text-center title">Our exclusive features for the B2B Industries</p>
+            <!-- Add these features -->
+            <div class="Feature-body">
+                <div class="B2B-body row">
+
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex flex-column">
+                        <div class="B2B-body__features-body">
+                            <div class="features-body-container">
+                                <img src="img/b2b1.svg" class="b2b-image">
+                                <div class="feature-title">Grow faster</div>
+                                <div class="feature-description">DigiTruck helps you to transfer your goods more efficiently than
+                                    ever. We take the responsibility of your logistics so that you can grow faster. Spend less time
+                                    and money in logistics and focus more on your business.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex flex-column">
+                        <div class="B2B-body__features-body b2b-rows">
+                            <div class="features-body-container">
+                                <img src="img/b2b2.svg" class="b2b-image">
+                                <div class="feature-title">Reach more customers</div>
+                                <div class="feature-description">Serve the customers from the whole country through our platform. Ensure
+                                    trips from anywhere in the country and increase your profit.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="B2B-body row">
+
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex flex-column">
+                        <div class="B2B-body__features-body">
+                            <div class="features-body-container">
+                                <img src="img/b2b3.svg" class="b2b-image">
+                                <div class="feature-title">Eco friendly solution</div>
+                                <div class="feature-description">We aim to reduce the number of empty truck movements. That
+                                    will minimize traffic congestion and carbon emission.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex flex-column">
+                        <div class="B2B-body__features-body b2b-rows">
+                            <div class="features-body-container">
+                                <img src="img/b2b4.svg" class="b2b-image">
+                                <div class="feature-title">Better monitoring</div>
+                                <div class="feature-description">See all your shipments — past, present and future — in
+                                    one place. Additionally, you’ll see the real-time status of all your shipments moved
+                                    within the DigiTruck customer app.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Process -->
+    <div class="process-background" id="Process-Section">
+        <div class="container">
+            <p class="process-title text-center title">Our processes in 7 simple steps</p>
+            <div class="process-wrapper">
+                <img class="img-fluid" src="img/total processes.svg" alt="Total Process">
+            </div>
+        </div>
+    </div>
+
+    <!-- Download our App -->
+    <div class="download-container">
+        <div class="container" id="Download-Section">
+            <div class="">
+                <p class="title text-center Download-head">Download Our App</p>
+                <p class="download-text text-center">Put your phone number below and we'll send you a link from where
+                    you
+                    can download the DigiTruck App.</p>
+                <div class="download-input-box row">
+                    <input type="tel"
+                        class="col-sm-9 p-1 download-phone px-4 input-placeholder form-control shadow-none"
+                        placeholder="Enter your phone number" id="border-radius">
+                    <button type="button" class="btn learn-more shadow-none col-sm-3" id="download-button">Text
+                        App Link</button>
+                </div>
+                <div class="d-flex flex-row align-self-center or-body">
+                    <div class="bg-dark line-or or--first-line"></div>
+                    <p class="text or-space">or</p>
+                    <div class="bg-dark line-or or-space"></div>
+                </div>
+                <div class="google-play-body">
+                    <a href="https://play.google.com/store/apps/details?id=com.digitruck.partner"><img src="img/google-play.svg"
+                            class="google-play img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Us -->
+    <div class="container contact-body" id="Contact-Section">
+        <div class="">
+            <p class="title text-center contact-title">Contact Us</p>
+            <div class="row map-input-box">
+                <div class="col-sm-7 map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.4622313884556!2d90.36491421414479!3d23.837714691353902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c15be6719cf3%3A0xc27d15d21670534e!2sDigiTruck+Limited!5e0!3m2!1sen!2sbd!4v1566199648711!5m2!1sen!2sbd"
+                        width="100%" height="487" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-5">
+                    <div class="map-input-direction">
+                        <p class="small-text">Send us your all questions and suggestions by filling up this form.</p>
+                    </div>
+                    <input type="text" placeholder="Name"
+                        class="contact-name contact-input p-4 input-placeholder form-control shadow-none">
+                    <input type="tel" placeholder="Phone Number"
+                        class="contact-number contact-input p-4 input-placeholder form-control shadow-none">
+                    <input type="email" placeholder="Email"
+                        class="contact-number contact-input p-4 input-placeholder form-control shadow-none">
+                    <textarea placeholder="Your Message...."
+                        class="contact-number message-area p-4 input-placeholder form-control shadow-none"></textarea>
+                    <button class="btn learn-more Contact-send shadow-none">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container footer-body">
+        <div class="row">
+
+            <!-- Logo & contact -->
+            <div class="col-sm-6 d-flex flex-column  logo-contact-body">
+                <div class="footer__logo ">
+                    <img src="img/footer-logo.svg" class="img-fluid">
+                </div>
+                <div class="row footer__contact footer__contact--margin-left ">
+                    <div><img src="img/phone.svg"></div>
+                    <div>
+                        <p class="text num-email">01305689030</p>
+                    </div>
+                </div>
+                <div class="row footer__contact--margin-left info-digi ">
+                    <div><img src="img/email.svg"></div>
+                    <div>
+                        <p class="text num-email">info@digitruck.com.bd</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="col-md-6 location location-first">House 625, Avenue 3, Road 10, Mirpur DOHS, Dhaka, Bangladesh</p>
+            <div class="mild-line"></div>
+
+            <!-- Features -->
+            <div class="col-sm-4  features-parent-body">
+                <div class="d-flex flex-row justify-content-around feature-body">
+                    <div class="d-flex flex-column feature-first-column">
+                        <div class="first-feature">
+                            <a data-easing="easeInOutCubic" href="#About-Section" id="remove">
+                                <p class="text feature-link link-hovering">About Us</p>
+                            </a>
+                        </div>
+                        <div class="blog">
+                            <a data-easing="easeInOutCubic" href="#Features-Section" id="remove">
+                                <p class="text feature-link link-hovering">Features</p>
+                            </a>
+                        </div>
+                        <div class="blog">
+                            <a data-easing="easeInOutCubic" href="#Process-Section" id="remove">
+                                <p class="text feature-link link-hovering">Our Process</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column feature__second-column">
+                        <div class="first-feature">
+                            <a data-easing="easeInOutCubic" href="#Download-Section" id="remove">
+                                <p class="text feature-link link-hovering">Download App</p>
+                            </a>
+                        </div>
+                        <div class="blog">
+                            <a data-easing="easeInOutCubic" href="#Contact-Section" id="remove">
+                                <p class="text feature-link link-hovering">Blog</p>
+                            </a>
+                        </div>
+                        <div class="blog">
+                            <a data-easing="easeInOutCubic" href="#Contact-Section" id="remove">
+                                <p class="text feature-link link-hovering">Contact Us</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social -->
+            <div class="col-sm-2">
+                <div class="d-flex flex-column social-body">
+                    <div class="playstore-body">
+                        <a href="https://play.google.com/store/apps/details?id=com.digitruck.partner">
+                            <img src="img/playstore.svg" class="playstore img-fluid">
+                        </a>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center footer-icon">
+                        <div>
+                            <a
+                                href="https://web.facebook.com/digitruck.bd/?eid=ARAHNd976hka6XdoeY9sEeWUcD-SuLLhl5GUNoxuB7IJd7nonLCkQY53XQwr99wMw3DA-gvFG2DgDrDT&timeline_context_item_type=intro_card_work&timeline_context_item_source=100010260091360&fref=tag">
+                                <img src="img/fb.svg" class="facebook">
+                            </a>
+                        </div>
+                        <div class="footer-icon--margin-left">
+                            <a href="https://twitter.com/DigiTruckBD">
+                                <img src="img/twi.svg">
+                            </a>
+                        </div>
+                        <div class="footer-icon--margin-left">
+                            <a href="https://www.instagram.com/digitruck.bd/">
+                                <img src="img/insta.svg">
+                            </a>
+                        </div>
+                        <div class="footer-icon--margin-left">
+                            <a href="https://bd.linkedin.com/company/digitruck-bangladesh">
+                                <img src="img/in.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- copyright -->
+    <div class="bg-dark border-top copy-right"></div>
+    <div class="container">
+        <div class="d-flex flex-row row copyright-body">
+            <p class="col-md-6 location first location-second">House 625, Avenue 3, Road 10, Mirpur DOHS, Dhaka,
+                Bangladesh</p>
+            <p class="col-md-6 copyright">Copyright © DigiTruck Ltd. 2019</p>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="JS/JS1.js"></script>
+    <script src="JS/JS2.js"></script>
+    <script src="JS/JS3.js"></script>
+    <script src="JS/smooth-scroll.polyfills.js"></script>
+    <script src="JS/custom.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
+
+</html>
