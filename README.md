@@ -1,5 +1,5 @@
 # DigiTruck-old-Landing-Page
-This is Responsive Landing page of Digitruck that i developed in Digitruck Bangladesh. I used here-
+This is ***Responsive Landing page*** of Digitruck that i developed in Digitruck Bangladesh. I used here-
 - HTML5
 - CSS
 - Bootstrap4
